@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  width: 309px;
+  height: 309px;
+  border: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.time-left {
+  font-size: 2rem;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.result {
+  font-size: 2rem;
+}
+.mole {
+  background-image: url("mole.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
